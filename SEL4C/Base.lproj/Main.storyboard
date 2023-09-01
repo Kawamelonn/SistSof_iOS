@@ -203,6 +203,21 @@
             <point key="canvasLocation" x="1000.763358778626" y="772.53521126760563"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="3Yp-97-vdh">
+            <objects>
+                <viewController id="FDA-iv-5Lm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="elJ-sJ-D1Z">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bcs-G9-yGd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gR5-IR-QFP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="767"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tKp-wY-DbZ">
             <objects>
                 <viewController id="4Da-av-nFQ" sceneMemberID="viewController">
@@ -567,7 +582,7 @@
     </scenes>
     <resources>
         <image name="97CF6A2A-3BC8-467B-9490-3B97D013A601" width="291.66665649414062" height="100.66666412353516"/>
-        <image name="cuadroVerde" width="199" height="203"/>
+        <image name="cuadroVerde" width="199" height="203.66667175292969"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
