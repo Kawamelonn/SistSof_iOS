@@ -14,6 +14,9 @@
 		59EDBFA22A9FDA5B00A4933C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EDBFA12A9FDA5B00A4933C /* Assets.xcassets */; };
 		59EDBFA52A9FDA5B00A4933C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EDBFA32A9FDA5B00A4933C /* LaunchScreen.storyboard */; };
 		59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFAC2AA024F900A4933C /* RegistroViewController.swift */; };
+		59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */; };
+		59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB22AA268A600A4933C /* TabBarViewController.swift */; };
+		59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		59EDBFA42A9FDA5B00A4933C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59EDBFA62A9FDA5B00A4933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59EDBFAC2AA024F900A4933C /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActividadesViewController.swift; sourceTree = "<group>"; };
+		59EDBFB22AA268A600A4933C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				59EDBFA32A9FDA5B00A4933C /* LaunchScreen.storyboard */,
 				59EDBFA62A9FDA5B00A4933C /* Info.plist */,
 				59EDBFAC2AA024F900A4933C /* RegistroViewController.swift */,
+				59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */,
+				59EDBFB22AA268A600A4933C /* TabBarViewController.swift */,
+				59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */,
 			);
 			path = SEL4C;
 			sourceTree = "<group>";
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				59EDBF9D2A9FDA5900A4933C /* ViewController.swift in Sources */,
+				59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */,
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
 				59EDBF992A9FDA5900A4933C /* AppDelegate.swift in Sources */,
+				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
+				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,
 				59EDBF9B2A9FDA5900A4933C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -319,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

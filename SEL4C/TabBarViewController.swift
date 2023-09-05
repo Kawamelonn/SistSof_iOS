@@ -1,25 +1,19 @@
 //
-//  RegistroViewController.swift
+//  TabBarViewController.swift
 //  SEL4C
 //
-//  Created by César Andrés Ceballos Castillo on 30/08/23.
+//  Created by César Andrés Ceballos Castillo on 01/09/23.
 //
 
 import UIKit
 
-class RegistroViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.hidesBackButton = true
 
         // Do any additional setup after loading the view.
-    }
-    @IBAction func CrearCuentaTapped(_ sender: UIButton) {
-
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
-        
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
     
 
