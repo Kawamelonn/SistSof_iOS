@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1002.2900763358779" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1960" y="486"/>
         </scene>
         <!--Actividades View Controller-->
         <scene sceneID="i7B-kR-FLF">
@@ -1384,7 +1384,7 @@ o te interesa realizar:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZH-HF-hZl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2144" y="-2"/>
+            <point key="canvasLocation" x="3100" y="486"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="90g-w1-Qs1">
@@ -1402,7 +1402,7 @@ o te interesa realizar:</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rg-H8-O7K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75.572519083969468" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1033" y="486"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="ALY-gv-fOR">
