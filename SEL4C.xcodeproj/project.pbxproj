@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5956E4CF2AA6CDEE008D223E /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4CE2AA6CDEE008D223E /* NSAttributedStringExtension.swift */; };
+		5956E4D12AA7F04E008D223E /* DiagnosticoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4D02AA7F04E008D223E /* DiagnosticoViewController.swift */; };
+		5956E4D32AA80F81008D223E /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */; };
 		59EDBF992A9FDA5900A4933C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBF982A9FDA5900A4933C /* AppDelegate.swift */; };
 		59EDBF9B2A9FDA5900A4933C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBF9A2A9FDA5900A4933C /* SceneDelegate.swift */; };
 		59EDBF9D2A9FDA5900A4933C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBF9C2A9FDA5900A4933C /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5956E4CE2AA6CDEE008D223E /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		5956E4D02AA7F04E008D223E /* DiagnosticoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticoViewController.swift; sourceTree = "<group>"; };
+		5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
 		59EDBF952A9FDA5900A4933C /* SEL4C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEL4C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EDBF982A9FDA5900A4933C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59EDBF9A2A9FDA5900A4933C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */,
 				59EDBFB22AA268A600A4933C /* TabBarViewController.swift */,
 				59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */,
+				5956E4CE2AA6CDEE008D223E /* NSAttributedStringExtension.swift */,
+				5956E4D02AA7F04E008D223E /* DiagnosticoViewController.swift */,
+				5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */,
 			);
 			path = SEL4C;
 			sourceTree = "<group>";
@@ -153,6 +162,9 @@
 				59EDBF9D2A9FDA5900A4933C /* ViewController.swift in Sources */,
 				59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */,
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
+				5956E4D12AA7F04E008D223E /* DiagnosticoViewController.swift in Sources */,
+				5956E4D32AA80F81008D223E /* EditarPerfilViewController.swift in Sources */,
+				5956E4CF2AA6CDEE008D223E /* NSAttributedStringExtension.swift in Sources */,
 				59EDBF992A9FDA5900A4933C /* AppDelegate.swift in Sources */,
 				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
 				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,

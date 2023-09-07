@@ -7,12 +7,42 @@
 
 import UIKit
 
-class ActividadesViewController: UIViewController {
+class ActividadesViewController: UIViewController{
 
+    var temp: String = ":("
+    var temp1: Bool = false
+    
+    @IBOutlet weak var CuadroActividadGrande: UIImageView!
+    
+    @IBOutlet weak var CuadroActividadMediano: UIImageView!
+    
+    
+    @IBOutlet weak var BotonIniciar: UIButton!
+    
+    @IBOutlet weak var LabelActividad: UILabel!
+    
+    @IBOutlet weak var Completado: UILabel!
+    
+    @IBOutlet weak var CuadroActividadChico: UIImageView!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print (temp)
+        print(temp1)
+        if(temp1 == true){
+            CuadroActividadMediano.image = UIImage(named: "CuadradoVerdeObscuro")
+            CuadroActividadGrande.image = UIImage(named: "CuadroVerdeReal")
+            BotonIniciar.isHidden = true
+            CuadroActividadChico.isHidden = false
+            Completado.isHidden = false
+            
+        }
+        
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.navigationItem.setHidesBackButton(true, animated: true)
+        self.navigationItem.setHidesBackButton(true, animated: true)
 
         // Do any additional setup after loading the view.
     }

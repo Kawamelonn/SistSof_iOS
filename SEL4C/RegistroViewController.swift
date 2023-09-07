@@ -9,8 +9,13 @@ import UIKit
 
 class RegistroViewController: UIViewController {
 
+    
+    @IBOutlet weak var textView: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTextView()
 
         // Do any additional setup after loading the view.
     }
@@ -20,6 +25,22 @@ class RegistroViewController: UIViewController {
         let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
         
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+    }
+    
+    
+    @IBAction func CheckBoxTapped(_ sender: UIButton) {
+        if sender.isSelected{
+            sender.isSelected = false
+        }else{
+            sender.isSelected = true
+        }
+    }
+    
+    func updateTextView(){
+        let path = "https://tec.mx/es/aviso-de-privacidad-sel4c"
+        let text = textView.text ?? ""
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "terminos y condiciones")
+        textView.attributedText = attributedString
     }
     
 
