@@ -8,17 +8,73 @@
 import UIKit
 
 class RegistroViewController: UIViewController {
-
+    
+    @IBOutlet weak var disciplinaOptions: UIButton!
+    
+    @IBOutlet weak var generoOptions: UIButton!
+    
+    @IBOutlet weak var gradoOptions: UIButton!
     
     @IBOutlet weak var textView: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        setPullDown()
+        optionsGenero()
+        optionsDisciplina()
 
-        // Do any additional setup after loading the view.
     }
+    
+    func setPullDown() {
+          let optionClosure = { (action: UIAction) in
+              self.gradoOptions.setTitle(action.title, for: .normal)
+          }
+          
+          let menu = UIMenu(title: "Selecciona un grado", children: [
+              UIAction(title: "Pregrado", state: .on, handler: optionClosure),
+              UIAction(title: "Posgrado", handler: optionClosure),
+              UIAction(title: "Educación Continua", handler: optionClosure)
+          ])
+          
+          gradoOptions.showsMenuAsPrimaryAction = true
+          gradoOptions.menu = menu
+      }
+    
+    func optionsGenero() {
+          let optionClosure = { (action: UIAction) in
+              self.generoOptions.setTitle(action.title, for: .normal)
+          }
+          
+          let menu = UIMenu(title: "Selecciona una opción", children: [
+              UIAction(title: "Masculino", state: .on, handler: optionClosure),
+              UIAction(title: "Femenino", handler: optionClosure),
+              UIAction(title: "No binario", handler: optionClosure),
+              UIAction(title: "Prefiero no decir", handler: optionClosure)
+          ])
+          
+          generoOptions.showsMenuAsPrimaryAction = true
+          generoOptions.menu = menu
+      }
+    
+    func optionsDisciplina() {
+          let optionClosure = { (action: UIAction) in
+              self.disciplinaOptions.setTitle(action.title, for: .normal)
+          }
+          
+          let menu = UIMenu(title: "Selecciona una opción", children: [
+              UIAction(title: "Ingeniería y Ciencias", state: .on, handler: optionClosure),
+              UIAction(title: "Humanidades y Educación", handler: optionClosure),
+              UIAction(title: "Ciencias Sociales", handler: optionClosure),
+              UIAction(title: "Ciencias de la Salud", handler: optionClosure),
+              UIAction(title: "Arquitectura, Arte y Diseño", handler: optionClosure),
+              UIAction(title: "Negocios", handler: optionClosure)
+          ])
+          
+          disciplinaOptions.showsMenuAsPrimaryAction = true
+          disciplinaOptions.menu = menu
+      }
+    
     @IBAction func CrearCuentaTapped(_ sender: UIButton) {
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
