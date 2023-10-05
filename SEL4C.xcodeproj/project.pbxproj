@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D1C6672AC7BA5500817D28 /* Pregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1C6662AC7BA5500817D28 /* Pregunta.swift */; };
+		38D1C6692AC7BEAB00817D28 /* IndexEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1C6682AC7BEAB00817D28 /* IndexEngine.swift */; };
+		38D1C66B2AC7C09700817D28 /* Respuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1C66A2AC7C09700817D28 /* Respuesta.swift */; };
+		38D1C66F2ACB5A4400817D28 /* Importfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1C66E2ACB5A4400817D28 /* Importfiles.swift */; };
+		38D1C6B32ACBA85B00817D28 /* SEL4CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1C6B22ACBA85B00817D28 /* SEL4CTests.swift */; };
 		5956E4CF2AA6CDEE008D223E /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4CE2AA6CDEE008D223E /* NSAttributedStringExtension.swift */; };
 		5956E4D12AA7F04E008D223E /* DiagnosticoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4D02AA7F04E008D223E /* DiagnosticoViewController.swift */; };
 		5956E4D32AA80F81008D223E /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */; };
@@ -22,7 +27,23 @@
 		59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		38D1C6B42ACBA85B00817D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EDBF8D2A9FDA5900A4933C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EDBF942A9FDA5900A4933C;
+			remoteInfo = SEL4C;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		38D1C6662AC7BA5500817D28 /* Pregunta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pregunta.swift; sourceTree = "<group>"; };
+		38D1C6682AC7BEAB00817D28 /* IndexEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexEngine.swift; sourceTree = "<group>"; };
+		38D1C66A2AC7C09700817D28 /* Respuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respuesta.swift; sourceTree = "<group>"; };
+		38D1C66E2ACB5A4400817D28 /* Importfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Importfiles.swift; sourceTree = "<group>"; };
+		38D1C6B02ACBA85B00817D28 /* SEL4CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEL4CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D1C6B22ACBA85B00817D28 /* SEL4CTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEL4CTests.swift; sourceTree = "<group>"; };
 		5956E4CE2AA6CDEE008D223E /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 		5956E4D02AA7F04E008D223E /* DiagnosticoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticoViewController.swift; sourceTree = "<group>"; };
 		5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38D1C6AD2ACBA85B00817D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59EDBF922A9FDA5900A4933C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,10 +79,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38D1C6652AC7BA3400817D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38D1C6662AC7BA5500817D28 /* Pregunta.swift */,
+				38D1C6682AC7BEAB00817D28 /* IndexEngine.swift */,
+				38D1C66A2AC7C09700817D28 /* Respuesta.swift */,
+				38D1C66E2ACB5A4400817D28 /* Importfiles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38D1C6B12ACBA85B00817D28 /* SEL4CTests */ = {
+			isa = PBXGroup;
+			children = (
+				38D1C6B22ACBA85B00817D28 /* SEL4CTests.swift */,
+			);
+			path = SEL4CTests;
+			sourceTree = "<group>";
+		};
+		38D1C6B92ACBA93700817D28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38D1C6BB2ACBA95900817D28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		59EDBF8C2A9FDA5900A4933C = {
 			isa = PBXGroup;
 			children = (
 				59EDBF972A9FDA5900A4933C /* SEL4C */,
+				38D1C6B12ACBA85B00817D28 /* SEL4CTests */,
 				59EDBF962A9FDA5900A4933C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				59EDBF952A9FDA5900A4933C /* SEL4C.app */,
+				38D1C6B02ACBA85B00817D28 /* SEL4CTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +133,9 @@
 		59EDBF972A9FDA5900A4933C /* SEL4C */ = {
 			isa = PBXGroup;
 			children = (
+				38D1C6BB2ACBA95900817D28 /* Controllers */,
+				38D1C6B92ACBA93700817D28 /* Views */,
+				38D1C6652AC7BA3400817D28 /* Model */,
 				59EDBF982A9FDA5900A4933C /* AppDelegate.swift */,
 				59EDBF9A2A9FDA5900A4933C /* SceneDelegate.swift */,
 				59EDBF9C2A9FDA5900A4933C /* ViewController.swift */,
@@ -91,6 +157,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38D1C6AF2ACBA85B00817D28 /* SEL4CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D1C6B62ACBA85B00817D28 /* Build configuration list for PBXNativeTarget "SEL4CTests" */;
+			buildPhases = (
+				38D1C6AC2ACBA85B00817D28 /* Sources */,
+				38D1C6AD2ACBA85B00817D28 /* Frameworks */,
+				38D1C6AE2ACBA85B00817D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D1C6B52ACBA85B00817D28 /* PBXTargetDependency */,
+			);
+			name = SEL4CTests;
+			productName = SEL4CTests;
+			productReference = 38D1C6B02ACBA85B00817D28 /* SEL4CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		59EDBF942A9FDA5900A4933C /* SEL4C */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59EDBFA92A9FDA5B00A4933C /* Build configuration list for PBXNativeTarget "SEL4C" */;
@@ -118,6 +202,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					38D1C6AF2ACBA85B00817D28 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 59EDBF942A9FDA5900A4933C;
+					};
 					59EDBF942A9FDA5900A4933C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -137,11 +225,19 @@
 			projectRoot = "";
 			targets = (
 				59EDBF942A9FDA5900A4933C /* SEL4C */,
+				38D1C6AF2ACBA85B00817D28 /* SEL4CTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38D1C6AE2ACBA85B00817D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59EDBF932A9FDA5900A4933C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +251,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38D1C6AC2ACBA85B00817D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D1C6B32ACBA85B00817D28 /* SEL4CTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59EDBF912A9FDA5900A4933C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,16 +267,28 @@
 				59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */,
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
 				5956E4D12AA7F04E008D223E /* DiagnosticoViewController.swift in Sources */,
+				38D1C66F2ACB5A4400817D28 /* Importfiles.swift in Sources */,
 				5956E4D32AA80F81008D223E /* EditarPerfilViewController.swift in Sources */,
 				5956E4CF2AA6CDEE008D223E /* NSAttributedStringExtension.swift in Sources */,
 				59EDBF992A9FDA5900A4933C /* AppDelegate.swift in Sources */,
 				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
 				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,
+				38D1C6672AC7BA5500817D28 /* Pregunta.swift in Sources */,
+				38D1C6692AC7BEAB00817D28 /* IndexEngine.swift in Sources */,
+				38D1C66B2AC7C09700817D28 /* Respuesta.swift in Sources */,
 				59EDBF9B2A9FDA5900A4933C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D1C6B52ACBA85B00817D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EDBF942A9FDA5900A4933C /* SEL4C */;
+			targetProxy = 38D1C6B42ACBA85B00817D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		59EDBF9E2A9FDA5900A4933C /* Main.storyboard */ = {
@@ -194,6 +310,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		38D1C6B72ACBA85B00817D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASAR.SEL4CTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEL4C.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SEL4C";
+			};
+			name = Debug;
+		};
+		38D1C6B82ACBA85B00817D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASAR.SEL4CTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEL4C.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SEL4C";
+			};
+			name = Release;
+		};
 		59EDBFA72A9FDA5B00A4933C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38D1C6B62ACBA85B00817D28 /* Build configuration list for PBXNativeTarget "SEL4CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D1C6B72ACBA85B00817D28 /* Debug */,
+				38D1C6B82ACBA85B00817D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		59EDBF902A9FDA5900A4933C /* Build configuration list for PBXProject "SEL4C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

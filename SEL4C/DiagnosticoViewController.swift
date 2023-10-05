@@ -40,8 +40,6 @@ class DiagnosticoViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         
         let entregadoVerdad = getEntregado()
-        let nextView = segue.destination as! ActividadesViewController
-        nextView.temp1 = entregadoVerdad
         
     }
     
