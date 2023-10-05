@@ -20,6 +20,7 @@
 		59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */; };
 		59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB22AA268A600A4933C /* TabBarViewController.swift */; };
 		59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */; };
+		8EE0AA8E2ACF643E00E24DF7 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0AA8D2ACF643E00E24DF7 /* Usuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActividadesViewController.swift; sourceTree = "<group>"; };
 		59EDBFB22AA268A600A4933C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		8EE0AA8D2ACF643E00E24DF7 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		59EDBF8C2A9FDA5900A4933C = {
 			isa = PBXGroup;
 			children = (
+				8EE0AA8C2ACF642E00E24DF7 /* Model */,
 				59EDBF972A9FDA5900A4933C /* SEL4C */,
 				59EDBF962A9FDA5900A4933C /* Products */,
 			);
@@ -86,6 +89,14 @@
 				5956E4D22AA80F81008D223E /* EditarPerfilViewController.swift */,
 			);
 			path = SEL4C;
+			sourceTree = "<group>";
+		};
+		8EE0AA8C2ACF642E00E24DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EE0AA8D2ACF643E00E24DF7 /* Usuario.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
 				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,
 				59EDBF9B2A9FDA5900A4933C /* SceneDelegate.swift in Sources */,
+				8EE0AA8E2ACF643E00E24DF7 /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

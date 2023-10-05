@@ -18,6 +18,10 @@ class RegistroViewController: UIViewController {
     
     @IBOutlet weak var gradoOptions: UIButton!
     
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var correo: UITextField!
+    @IBOutlet weak var nombre: UITextField!
     @IBOutlet weak var textView: UILabel!
     
     override func viewDidLoad() {
@@ -180,13 +184,68 @@ class RegistroViewController: UIViewController {
     }
     
     @IBAction func CrearCuentaTapped(_ sender: UIButton) {
+        // Obtén los valores de los campos de texto y los botones
+            guard let nombre = nombre.text,
+                  let grado = gradoOptions.title(for: .normal),
+                  let disciplina = disciplinaOptions.title(for: .normal),
+                  let pais = paisOptions.title(for: .normal),
+                  let institucion = institucionOptions.title(for: .normal),
+                  let genero = generoOptions.title(for: .normal),
+                  let correo = correo.text,
+                  let username = username.text,
+                  let password = password.text else {
+                print("Debes completar todos los campos")
+                return
+            }
+
+            // Crea un diccionario con los valores recopilados
+            let usuarioData: [String: Any] = [
+                "nombre": nombre,
+                "grado": grado,
+                "disciplina": disciplina,
+                "pais": pais,
+                "institucion": institucion,
+                "genero": genero,
+                "correo": correo,
+                "username": username,
+                "password": password
+            ]
+
+            // Convierte el diccionario a JSON
+            do {
+                let jsonData = try JSONSerialization.data(withJSONObject: usuarioData, options: .prettyPrinted)
+                
+                // Ahora puedes enviar jsonData al servidor como solicitud POST
+                
+                // Define la URL del endpoint del servidor
+                guard let url = URL(string: "http://127.0.0.1:8000/Usuarios/") else {
+                    print("URL inválida")
+                    return
+                }
+
+                var request = URLRequest(url: url)
+                request.httpMethod = "POST"
+                request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+                request.httpBody = jsonData
+
+                URLSession.shared.dataTask(with: request) { (data, response, error) in
+                    if let error = error {
+                        print("Error al realizar la solicitud: \(error)")
+                        return
+                    }
+
+                    // Procesa la respuesta del servidor aquí si es necesario
+
+                }.resume()
+            } catch {
+                print("Error al convertir los datos a JSON: \(error)")
+            }
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
         
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
     }
-    
     
     @IBAction func CheckBoxTapped(_ sender: UIButton) {
         if sender.isSelected{

@@ -1579,12 +1579,16 @@ o te interesa realizar:</string>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="correo" destination="ghb-qz-fdi" id="kO2-vT-amb"/>
                         <outlet property="disciplinaOptions" destination="Ujc-nH-sG7" id="LBj-tt-v1q"/>
                         <outlet property="generoOptions" destination="rWB-3a-Aad" id="1gP-qN-6fF"/>
                         <outlet property="gradoOptions" destination="J2V-Ts-xoQ" id="2d1-AP-rWr"/>
                         <outlet property="institucionOptions" destination="iM9-cq-Q0T" id="jnW-EF-gyh"/>
+                        <outlet property="nombre" destination="0uG-SU-xW5" id="N6w-jG-bvC"/>
                         <outlet property="paisOptions" destination="8nU-yH-pK4" id="VZd-Km-Bhi"/>
+                        <outlet property="password" destination="MGE-Xc-kvp" id="D6b-Zh-Uze"/>
                         <outlet property="textView" destination="grL-pr-eHC" id="rF1-QY-yAO"/>
+                        <outlet property="username" destination="6sH-CR-NCh" id="GPz-aN-Yls"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZH-HF-hZl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
