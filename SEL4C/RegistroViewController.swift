@@ -9,6 +9,9 @@ import UIKit
 
 class RegistroViewController: UIViewController {
     
+    @IBOutlet weak var paisOptions: UIButton!
+    
+    @IBOutlet weak var institucionOptions: UIButton!
     @IBOutlet weak var disciplinaOptions: UIButton!
     
     @IBOutlet weak var generoOptions: UIButton!
@@ -23,6 +26,8 @@ class RegistroViewController: UIViewController {
         setPullDown()
         optionsGenero()
         optionsDisciplina()
+        fetchInstitucionesFromEndpoint()
+        fetchPaisesFromEndpoint()
 
     }
     
@@ -74,6 +79,105 @@ class RegistroViewController: UIViewController {
           disciplinaOptions.showsMenuAsPrimaryAction = true
           disciplinaOptions.menu = menu
       }
+    
+    func fetchInstitucionesFromEndpoint() {
+        guard let url = URL(string: "http://127.0.0.1:8000/Instituciones/") else {
+            print("URL inválida")
+            return
+        }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let error = error {
+                print("Error al realizar la solicitud: \(error)")
+                return
+            }
+            
+            guard let data = data else {
+                print("No se recibieron datos")
+                return
+            }
+            
+            do {
+                if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                    if let results = json["results"] as? [[String: String]] {
+                        var menuActions: [UIAction] = []
+                        
+                        for item in results {
+                            if let nombre = item["nombre"] {
+                                let action = UIAction(title: nombre, handler: { [weak self] _ in
+                                    self?.institucionOptions.setTitle(nombre, for: .normal)
+                                })
+                                menuActions.append(action)
+                            }
+                        }
+                        
+                        let menu = UIMenu(title: "Selecciona una Institución", children: menuActions)
+                        
+                        DispatchQueue.main.async {
+                            self.institucionOptions.showsMenuAsPrimaryAction = true
+                            self.institucionOptions.menu = menu
+                        }
+                    } else {
+                        print("No se encontraron datos de instituciones en la respuesta JSON")
+                    }
+                } else {
+                    print("Respuesta no válida")
+                }
+            } catch {
+                print("Error al analizar la respuesta JSON: \(error)")
+            }
+        }.resume()
+    }
+
+    
+    func fetchPaisesFromEndpoint() {
+        guard let url = URL(string: "http://127.0.0.1:8000/Paises/") else {
+            print("URL inválida")
+            return
+        }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let error = error {
+                print("Error al realizar la solicitud: \(error)")
+                return
+            }
+            
+            guard let data = data else {
+                print("No se recibieron datos")
+                return
+            }
+            
+            do {
+                if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                    if let results = json["results"] as? [[String: String]] {
+                        var menuActions: [UIAction] = []
+                        
+                        for item in results {
+                            if let nombre = item["nombre"] {
+                                let action = UIAction(title: nombre, handler: { [weak self] _ in
+                                    self?.paisOptions.setTitle(nombre, for: .normal)
+                                })
+                                menuActions.append(action)
+                            }
+                        }
+                        
+                        let menu = UIMenu(title: "Selecciona un País", children: menuActions)
+                        
+                        DispatchQueue.main.async {
+                            self.paisOptions.showsMenuAsPrimaryAction = true
+                            self.paisOptions.menu = menu
+                        }
+                    } else {
+                        print("No se encontraron datos de países en la respuesta JSON")
+                    }
+                } else {
+                    print("Respuesta no válida")
+                }
+            } catch {
+                print("Error al analizar la respuesta JSON: \(error)")
+            }
+        }.resume()
+    }
     
     @IBAction func CrearCuentaTapped(_ sender: UIButton) {
 
