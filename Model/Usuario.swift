@@ -7,15 +7,13 @@
 
 import Foundation
 
-struct Usuario: Codable {
-    let nombre: String
-    let grado: String
-    let disciplina: String
-    let pais: String
-    let institucion: String
-    let genero: String
-    let correo: String
-    let username: String
-    let password: String
+struct Usuario: Encodable {
+    var nombre: String
+    var grado: String
+    var disciplina: String
+    var genero: String
+    var correo: String
+    var username: String
+    var password: String
 }
 

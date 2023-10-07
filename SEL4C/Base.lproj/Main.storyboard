@@ -1479,7 +1479,7 @@ o te interesa realizar:</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES" textContentType="name"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -1501,7 +1501,7 @@ o te interesa realizar:</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES" textContentType="name"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
