@@ -28,6 +28,7 @@ class RegistroViewController: UIViewController {
     
     var userCreationController = UserCreationController()
     var selectedInstitucionID: Int?
+    var selectedPaisID: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,6 +88,7 @@ class RegistroViewController: UIViewController {
         for pais in paises.results {
             let action = UIAction(title: pais.nombre, handler: { [weak self] _ in
                 self?.paisOptions.setTitle(pais.nombre, for: .normal)
+                self?.selectedPaisID = pais.id
             })
             menuActions.append(action)
         }
@@ -216,14 +218,15 @@ class RegistroViewController: UIViewController {
                mostrarAlerta("Las contraseñas no coinciden. Por favor, asegúrate de que las contraseñas sean iguales.")
                throw ValidationError.passwordMismatch
            }
-           if let selectedID = selectedInstitucionID {
+           if let selectedInID = selectedInstitucionID, let selectedPaID = selectedPaisID {
                // Crea un objeto Usuario con los datos recopilados
                let newUsuario = Usuario(
                    nombre: nombre,
                    genero: genero,
                    grado: grado,
                    disciplina: disciplina,
-                   institucion: selectedID,
+                   pais: selectedPaID,
+                   institucion: selectedInID,
                    correo: correo,
                    username: username,
                    password: password

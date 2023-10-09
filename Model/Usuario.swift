@@ -12,7 +12,8 @@ struct Usuario: Encodable {
     var genero: String
     var grado: String
     var disciplina: String
-    var institucion: Int // ID Institucion
+    var pais: Int // ID País
+    var institucion: Int // ID Institución
     var correo: String
     var username: String
     var password: String
