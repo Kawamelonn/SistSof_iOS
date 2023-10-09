@@ -14,7 +14,7 @@ enum UserCreationError: Error, LocalizedError {
 }
 
 class UserCreationController {
-    let baseString = "http://127.0.0.1:8000/Usuarios/"
+    let baseString = "http://127.0.0.1:8000/crear_usuario/"
     
     func insertUser(newUsuario: Usuario) async throws -> Void {
         let insertURL = URL(string: baseString)!

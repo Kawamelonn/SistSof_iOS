@@ -27,6 +27,7 @@ class RegistroViewController: UIViewController {
     @IBOutlet weak var acceptTerms: UIButton!
     
     var userCreationController = UserCreationController()
+    var selectedInstitucionID: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,6 +67,7 @@ class RegistroViewController: UIViewController {
         for institucion in instituciones.results {
             let action = UIAction(title: institucion.nombre, handler: { [weak self] _ in
                 self?.institucionOptions.setTitle(institucion.nombre, for: .normal)
+                self?.selectedInstitucionID = institucion.id
             })
             menuActions.append(action)
         }
@@ -214,26 +216,34 @@ class RegistroViewController: UIViewController {
                mostrarAlerta("Las contraseñas no coinciden. Por favor, asegúrate de que las contraseñas sean iguales.")
                throw ValidationError.passwordMismatch
            }
-           // Crea un objeto Usuario con los datos recopilados
-            let newUsuario = Usuario(
-                nombre: nombre,
-                genero: genero,
-                grado: grado,
-                disciplina: disciplina,
-                correo: correo,
-                username: username,
-                password: password
-            )
-            print(newUsuario)
+           if let selectedID = selectedInstitucionID {
+               // Crea un objeto Usuario con los datos recopilados
+               let newUsuario = Usuario(
+                   nombre: nombre,
+                   genero: genero,
+                   grado: grado,
+                   disciplina: disciplina,
+                   institucion: selectedID,
+                   correo: correo,
+                   username: username,
+                   password: password
+               )
+               print(newUsuario)
                
-            // Envía el nuevo usuario a la base de datos
-            do {
-                try await userCreationController.insertUser(newUsuario: newUsuario)
-                print("Usuario creado exitosamente")
-            } catch {
-                print("Error al crear el usuario: \(error)")
-                throw ValidationError.userCreationFailed
-            }
+               // Envía el nuevo usuario a la base de datos
+               do {
+                   try await userCreationController.insertUser(newUsuario: newUsuario)
+                   print("Usuario creado exitosamente")
+               } catch {
+                   print("Error al crear el usuario: \(error)")
+                   throw ValidationError.userCreationFailed
+               }
+           } else {
+               // Manejar el caso en el que no hay una institución seleccionada
+               print("No se ha seleccionado una institución.")
+               // Aquí puedes mostrar una alerta o tomar alguna otra acción apropiada
+           }
+
         }
 
     func mostrarAlerta(_ mensaje: String) {
