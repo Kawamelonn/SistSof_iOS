@@ -23,8 +23,8 @@ enum PaisError: Error, LocalizedError{
 }
 
 extension Pais {
-    static func fetchPaises() async throws -> Paises {
-        let baseString = "http://127.0.0.1:8000/Paises"
+    static func fetchPaises(page: Int) async throws -> Paises {
+        let baseString = "http://127.0.0.1:8000/Paises?page=\(page)" // Agrega la página a la URL
         let paisesURL = URL(string: baseString)!
         
         do {
@@ -43,4 +43,5 @@ extension Pais {
         }
     }
 }
+
 

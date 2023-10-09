@@ -23,8 +23,8 @@ enum InstitucionError: Error, LocalizedError{
 }
 
 extension Institucion {
-    static func fetchInstituciones() async throws -> Instituciones {
-        let baseString = "http://127.0.0.1:8000/Instituciones"
+    static func fetchInstituciones(page: Int) async throws -> Instituciones {
+        let baseString = "http://127.0.0.1:8000/Instituciones?page=\(page)"
         let institucionesURL = URL(string: baseString)!
         
         do {

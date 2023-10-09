@@ -34,22 +34,20 @@ class RegistroViewController: UIViewController {
         super.viewDidLoad()
         
         Task{
-            do{
-                let instituciones = try await Institucion.fetchInstituciones()
-                print(instituciones)
-                updateUI(with: instituciones)
-            }catch{
-                displayError(InstitucionError.itemNotFound, title: "No se pudo accer a las instituciones")
+            do {
+                let allInstituciones = try await fetchAllInstituciones()
+                updateUIIn(with: allInstituciones)
+            } catch {
+                print("Error al obtener todas las instituciones: \(error)")
             }
         }
         
-        Task{
-            do{
-                let paises = try await Pais.fetchPaises()
-                print(paises)
-                updateUI(with: paises)
-            }catch{
-                displayError(PaisError.itemNotFound, title: "No se pudo accer a los paises")
+        Task {
+            do {
+                let allPaises = try await fetchAllPaises()
+                updateUIPa(with: allPaises)
+            } catch {
+                print("Error al obtener todos los países: \(error)")
             }
         }
         setPullDown()
@@ -59,13 +57,36 @@ class RegistroViewController: UIViewController {
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(abrirEnlace))
             textView.isUserInteractionEnabled = true
             textView.addGestureRecognizer(tapGesture)
-        
     }
     
-    func updateUI(with instituciones: Instituciones) {
+    func fetchAllInstituciones() async -> [Institucion] {
+        var allInstituciones: [Institucion] = []
+        var currentPage = 1
+
+        while true {
+            do {
+                let instituciones = try await Institucion.fetchInstituciones(page: currentPage)
+
+                if instituciones.results.isEmpty {
+                    // No hay más resultados, sal del bucle
+                    break
+                }
+
+                allInstituciones.append(contentsOf: instituciones.results)
+                currentPage += 1
+            } catch {
+                print("Error al obtener datos de la página \(currentPage): \(error)")
+                break // En caso de error, sal del bucle
+            }
+        }
+        
+        return allInstituciones
+    }
+    
+    func updateUIIn(with instituciones: [Institucion]) {
         var menuActions: [UIAction] = []
 
-        for institucion in instituciones.results {
+        for institucion in instituciones{
             let action = UIAction(title: institucion.nombre, handler: { [weak self] _ in
                 self?.institucionOptions.setTitle(institucion.nombre, for: .normal)
                 self?.selectedInstitucionID = institucion.id
@@ -80,27 +101,51 @@ class RegistroViewController: UIViewController {
             self.institucionOptions.menu = menu
         }
     }
-
     
-    func updateUI(with paises: Paises) {
-        var menuActions: [UIAction] = []
+    func fetchAllPaises() async -> [Pais] {
+        var allPaises: [Pais] = []
+        var currentPage = 1
+
+        while true {
+            do {
+                let paises = try await Pais.fetchPaises(page: currentPage)
+
+                if paises.results.isEmpty {
+                    // No hay más resultados, sal del bucle
+                    break
+                }
+
+                allPaises.append(contentsOf: paises.results)
+                currentPage += 1
+            } catch {
+                print("Error al obtener datos de la página \(currentPage): \(error)")
+                break // En caso de error, sal del bucle
+            }
+        }
         
-        for pais in paises.results {
+        return allPaises
+    }
+
+
+    func updateUIPa(with paises: [Pais]) {
+        var menuActions: [UIAction] = []
+
+        for pais in paises {
             let action = UIAction(title: pais.nombre, handler: { [weak self] _ in
                 self?.paisOptions.setTitle(pais.nombre, for: .normal)
                 self?.selectedPaisID = pais.id
             })
             menuActions.append(action)
         }
-        
+
         let menu = UIMenu(title: "Selecciona un País", children: menuActions)
-        
+
         DispatchQueue.main.async {
             self.paisOptions.showsMenuAsPrimaryAction = true
             self.paisOptions.menu = menu
         }
     }
-    
+
     
     func displayError(_ error: Error, title: String) {
         DispatchQueue.main.async {
