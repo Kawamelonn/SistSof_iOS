@@ -34,9 +34,17 @@ class PerfilViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        picker.dismiss(animated: true,completion:nil)
-        imagen.image = info[.originalImage] as? UIImage
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            imagen.image = pickedImage
+        }
+        
+        dismiss(animated: true, completion: nil)
     }
+
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+
 
     /*
     // MARK: - Navigation
