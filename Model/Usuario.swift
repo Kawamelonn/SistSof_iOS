@@ -9,9 +9,9 @@ import Foundation
 
 struct Usuario: Encodable {
     var nombre: String
+    var genero: String
     var grado: String
     var disciplina: String
-    var genero: String
     var correo: String
     var username: String
     var password: String

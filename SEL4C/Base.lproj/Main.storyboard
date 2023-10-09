@@ -1179,13 +1179,13 @@ o te interesa realizar:</string>
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="m5J-Nu-is6">
-                                                <rect key="frame" x="56.333333333333343" y="117" width="280.33333333333326" height="1433.6666666666667"/>
+                                                <rect key="frame" x="35" y="117" width="323.33333333333331" height="1433.6666666666667"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kD2-JY-jDk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="64.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="64.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azm-xZ-dff">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="64.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="64.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="55"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1193,10 +1193,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tm8-T7-x1f">
-                                                        <rect key="frame" x="0.0" y="79.333333333333329" width="280.33333333333331" height="20.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="79.333333333333329" width="323.33333333333331" height="20.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre Completo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icY-LN-WNl">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1204,10 +1204,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTR-go-fix">
-                                                        <rect key="frame" x="0.0" y="114.66666666666669" width="280.33333333333331" height="34"/>
+                                                        <rect key="frame" x="0.0" y="114.66666666666669" width="323.33333333333331" height="34"/>
                                                         <subviews>
-                                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0uG-SU-xW5">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
+                                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre(s) y Apellidos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0uG-SU-xW5">
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
@@ -1215,10 +1215,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lg-Z7-5Q6">
-                                                        <rect key="frame" x="0.0" y="163.66666666666666" width="280.33333333333331" height="20.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="163.66666666666666" width="323.33333333333331" height="20.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grado Académico que estudias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QiI-pX-Ksc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1226,37 +1226,37 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qjx-Je-zgj">
-                                                        <rect key="frame" x="0.0" y="199" width="280.33333333333331" height="81.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="199" width="323.33333333333331" height="81.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pregrado: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAM-ht-6jN">
-                                                                <rect key="frame" x="0.0" y="0.0" width="140.33333333333334" height="81.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="81.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-SZ-dPK">
-                                                                <rect key="frame" x="140.33333333333331" y="0.0" width="140" height="81.333333333333329"/>
+                                                                <rect key="frame" x="161.66666666666669" y="0.0" width="161.66666666666669" height="81.333333333333329"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licenciatura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDm-f4-whX">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="20.333333333333332"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="20.333333333333332"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profesional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-TL-HOF">
-                                                                        <rect key="frame" x="0.0" y="20.333333333333343" width="140" height="20.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="20.333333333333343" width="161.66666666666666" height="20.333333333333329"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9a-f7-oOa">
-                                                                        <rect key="frame" x="0.0" y="40.666666666666657" width="140" height="20.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="40.666666666666657" width="161.66666666666666" height="20.333333333333329"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnC-AP-G7x">
-                                                                        <rect key="frame" x="0.0" y="61.000000000000007" width="140" height="20.333333333333336"/>
+                                                                        <rect key="frame" x="0.0" y="61.000000000000007" width="161.66666666666666" height="20.333333333333336"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -1266,25 +1266,25 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Yae-hO-D9s">
-                                                        <rect key="frame" x="0.0" y="295.33333333333331" width="280.33333333333331" height="40.666666666666686"/>
+                                                        <rect key="frame" x="0.0" y="295.33333333333331" width="323.33333333333331" height="40.666666666666686"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posgrado: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnH-eM-aOx">
-                                                                <rect key="frame" x="0.0" y="0.0" width="140.33333333333334" height="40.666666666666664"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="40.666666666666664"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SK1-1Y-WMB">
-                                                                <rect key="frame" x="140.33333333333331" y="0.0" width="140" height="40.666666666666664"/>
+                                                                <rect key="frame" x="161.66666666666669" y="0.0" width="161.66666666666669" height="40.666666666666664"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maestría" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ht3-Kp-MDl">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="20.333333333333332"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="20.333333333333332"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dcotorado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI2-xk-umb">
-                                                                        <rect key="frame" x="0.0" y="20.333333333333371" width="140" height="20.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="20.333333333333371" width="161.66666666666666" height="20.333333333333329"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -1294,10 +1294,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oG6-cf-zn8">
-                                                        <rect key="frame" x="0.0" y="351" width="280.33333333333331" height="34.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="351" width="323.33333333333331" height="34.333333333333314"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2V-Ts-xoQ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <menu key="menu" id="Alb-51-h1D">
                                                                     <children>
                                                                         <command title="Item 1" id="6W5-j5-LTx"/>
@@ -1310,10 +1310,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JPL-8D-2BQ">
-                                                        <rect key="frame" x="0.0" y="400.33333333333331" width="280.33333333333331" height="20.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="400.33333333333331" width="323.33333333333331" height="20.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Institución a la que perteneces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oci-sE-faz">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1321,10 +1321,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ug-vU-M13">
-                                                        <rect key="frame" x="0.0" y="435.66666666666669" width="280.33333333333331" height="34.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="435.66666666666669" width="323.33333333333331" height="34.333333333333314"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iM9-cq-Q0T">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <menu key="menu" id="9UP-pd-KEF">
                                                                     <children>
                                                                         <command title="Item 1" id="6wo-TY-BVd"/>
@@ -1337,10 +1337,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ujy-yg-CRc">
-                                                        <rect key="frame" x="0.0" y="485" width="280.33333333333331" height="20.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="485" width="323.33333333333331" height="20.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Género" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSH-xg-Bkb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1348,10 +1348,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mNo-ut-foJ">
-                                                        <rect key="frame" x="0.0" y="520.33333333333337" width="280.33333333333331" height="34.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="520.33333333333337" width="323.33333333333331" height="34.333333333333371"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWB-3a-Aad">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <menu key="menu" id="yte-PV-uKm">
                                                                     <children>
                                                                         <command title="Item 1" id="uNd-fb-FMw"/>
@@ -1364,10 +1364,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DnT-Fo-Hfl">
-                                                        <rect key="frame" x="0.0" y="569.66666666666663" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="569.66666666666663" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a14-y6-4ce">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1375,10 +1375,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgy-f4-ZUN">
-                                                        <rect key="frame" x="0.0" y="605" width="280.33333333333331" height="34.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="605" width="323.33333333333331" height="34.333333333333371"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nU-yH-pK4">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <menu key="menu" id="YaZ-e9-VjH">
                                                                     <children>
                                                                         <command title="Item 1" id="DvW-LY-6BA"/>
@@ -1391,10 +1391,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBx-0a-9RB">
-                                                        <rect key="frame" x="0.0" y="654.33333333333337" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="654.33333333333337" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disciplina de estudios de tu interés" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClZ-xu-3Nq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1402,10 +1402,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pb-Tb-UaK">
-                                                        <rect key="frame" x="0.0" y="689.66666666666663" width="280.33333333333331" height="34.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="689.66666666666663" width="323.33333333333331" height="34.333333333333371"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujc-nH-sG7">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <menu key="menu" id="id6-uw-ff7">
                                                                     <children>
                                                                         <command title="Item 1" id="B2Y-qB-VGh"/>
@@ -1418,10 +1418,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-Gr-owW">
-                                                        <rect key="frame" x="0.0" y="739" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="739" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvg-lB-Uk3">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1429,10 +1429,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="04m-6i-M6Z">
-                                                        <rect key="frame" x="0.0" y="774.33333333333337" width="280.33333333333331" height="34"/>
+                                                        <rect key="frame" x="0.0" y="774.33333333333337" width="323.33333333333331" height="34"/>
                                                         <subviews>
-                                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ghb-qz-fdi">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
+                                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hola@example.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ghb-qz-fdi">
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
@@ -1440,10 +1440,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kux-bC-zeC">
-                                                        <rect key="frame" x="0.0" y="823.33333333333337" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="823.33333333333337" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asignar Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoh-Vz-RKh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1451,10 +1451,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLD-cP-UzB">
-                                                        <rect key="frame" x="0.0" y="858.66666666666663" width="280.33333333333331" height="34"/>
+                                                        <rect key="frame" x="0.0" y="858.66666666666663" width="323.33333333333331" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6sH-CR-NCh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
@@ -1462,10 +1462,10 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1X4-7g-cS3">
-                                                        <rect key="frame" x="0.0" y="907.66666666666663" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="907.66666666666663" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DX-Ow-Fq5">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1473,21 +1473,21 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DII-bX-Wzg">
-                                                        <rect key="frame" x="0.0" y="943" width="280.33333333333331" height="34"/>
+                                                        <rect key="frame" x="0.0" y="943" width="323.33333333333331" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gxC-uM-uX9">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES" textContentType="name"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wmA-1F-EJ9">
-                                                        <rect key="frame" x="0.0" y="992" width="280.33333333333331" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="992" width="323.33333333333331" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmar Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgM-O3-Dcg">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
@@ -1495,26 +1495,26 @@ o te interesa realizar:</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEu-tP-eRi">
-                                                        <rect key="frame" x="0.0" y="1027.3333333333333" width="280.33333333333331" height="34"/>
+                                                        <rect key="frame" x="0.0" y="1027.3333333333333" width="323.33333333333331" height="34"/>
                                                         <subviews>
                                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MGE-Xc-kvp">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34"/>
                                                                 <color key="backgroundColor" red="0.81176471709999998" green="0.81960785390000002" blue="0.87058818339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" textContentType="name"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES" textContentType="name"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JxZ-Dk-Hsp">
-                                                        <rect key="frame" x="0.0" y="1076.3333333333333" width="280.33333333333331" height="128"/>
+                                                        <rect key="frame" x="0.0" y="1076.3333333333333" width="323.33333333333331" height="128"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27F-zq-88K">
-                                                        <rect key="frame" x="0.0" y="1219.3333333333333" width="280.33333333333331" height="128"/>
+                                                        <rect key="frame" x="0.0" y="1219.3333333333333" width="323.33333333333331" height="128"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJT-oy-J02">
-                                                        <rect key="frame" x="0.0" y="1362.3333333333333" width="280.33333333333331" height="22"/>
+                                                        <rect key="frame" x="0.0" y="1362.3333333333333" width="323.33333333333331" height="22"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ut-Ll-5xj">
                                                                 <rect key="frame" x="0.0" y="0.0" width="19.333333333333332" height="22"/>
@@ -1525,22 +1525,28 @@ o te interesa realizar:</string>
                                                                 <state key="selected" image="checkmark.square.fill" catalog="system"/>
                                                                 <state key="highlighted" image="checkmark.square" catalog="system"/>
                                                                 <connections>
-                                                                    <action selector="CheckBoxTapped:" destination="4Da-av-nFQ" eventType="touchUpInside" id="WaN-cH-UIe"/>
+                                                                    <action selector="CheckBoxTapped:" destination="4Da-av-nFQ" eventType="touchUpInside" id="qYm-wZ-hT8"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acepto los terminos y condiciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grL-pr-eHC">
-                                                                <rect key="frame" x="19.333333333333343" y="0.0" width="261" height="22"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He leído y Acepto el " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grL-pr-eHC">
+                                                                <rect key="frame" x="19.333333333333343" y="0.0" width="156" height="22"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aviso de Privacidad" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi9-Ee-NM5">
+                                                                <rect key="frame" x="175.33333333333334" y="0.0" width="148.00000000000003" height="22"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" systemColor="tintColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHG-ES-X0Q">
-                                                        <rect key="frame" x="0.0" y="1399.3333333333333" width="280.33333333333331" height="34.333333333333258"/>
+                                                        <rect key="frame" x="0.0" y="1399.3333333333333" width="323.33333333333331" height="34.333333333333258"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cld-no-lYK">
-                                                                <rect key="frame" x="0.0" y="0.0" width="280.33333333333331" height="34.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="323.33333333333331" height="34.333333333333336"/>
                                                                 <color key="tintColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="Crear Cuenta"/>
@@ -1579,6 +1585,8 @@ o te interesa realizar:</string>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="acceptTerms" destination="3ut-Ll-5xj" id="qv9-Qs-gqi"/>
+                        <outlet property="contraseña" destination="gxC-uM-uX9" id="wuN-04-kxq"/>
                         <outlet property="correo" destination="ghb-qz-fdi" id="kO2-vT-amb"/>
                         <outlet property="disciplinaOptions" destination="Ujc-nH-sG7" id="LBj-tt-v1q"/>
                         <outlet property="generoOptions" destination="rWB-3a-Aad" id="1gP-qN-6fF"/>
@@ -1587,7 +1595,7 @@ o te interesa realizar:</string>
                         <outlet property="nombre" destination="0uG-SU-xW5" id="N6w-jG-bvC"/>
                         <outlet property="paisOptions" destination="8nU-yH-pK4" id="VZd-Km-Bhi"/>
                         <outlet property="password" destination="MGE-Xc-kvp" id="D6b-Zh-Uze"/>
-                        <outlet property="textView" destination="grL-pr-eHC" id="rF1-QY-yAO"/>
+                        <outlet property="textView" destination="Xi9-Ee-NM5" id="DxE-Kb-mGE"/>
                         <outlet property="username" destination="6sH-CR-NCh" id="GPz-aN-Yls"/>
                     </connections>
                 </viewController>
@@ -1703,6 +1711,9 @@ o te interesa realizar:</string>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
