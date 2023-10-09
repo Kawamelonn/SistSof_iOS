@@ -531,14 +531,14 @@
         <scene sceneID="uIx-pA-ARa">
             <objects>
                 <viewController id="sAY-EV-Ges" customClass="Actividad1ViewController" customModule="SEL4C" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="C6h-2s-fer">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="C6h-2s-fer">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byz-7l-QkG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byz-7l-QkG">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2T-jP-qGN">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2T-jP-qGN">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Actividad 1: Identificación" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHE-D3-oE8">
@@ -698,33 +698,57 @@ Tabla con el registro de lo observado</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desempeño" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxk-9g-dGZ">
-                                <rect key="frame" x="108.66666666666667" y="91" width="175.66666666666663" height="41"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="35"/>
-                                <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqe-vm-iEq">
-                                <rect key="frame" x="16" y="167" width="361" height="187"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yqe-vm-iEq">
+                                <rect key="frame" x="16" y="193" width="361" height="191"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CuadroAzul" translatesAutoresizingMaskIntoConstraints="NO" id="JJ8-Wq-rLM">
-                                        <rect key="frame" x="52" y="-5" width="257" height="196"/>
+                                        <rect key="frame" x="19" y="-35" width="334" height="226"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nivel de aprendizaje: Básico" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XF-Sw-aro">
-                                        <rect key="frame" x="73" y="133" width="215" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Liderazgo:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j29-bc-1qj">
+                                        <rect key="frame" x="119" y="51" width="67" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
                                         <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnóstico Inicial" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uf-EK-GYC">
-                                        <rect key="frame" x="70" y="34" width="221" height="99"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conciencia y valor social:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYl-ok-VIs">
+                                        <rect key="frame" x="119" y="97" width="141" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
                                         <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Innovación social y sostenibilidad financiera:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATY-cD-b6H">
+                                        <rect key="frame" x="119" y="139" width="141" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="autocontrol" translatesAutoresizingMaskIntoConstraints="NO" id="bX2-dN-MRf">
+                                        <rect key="frame" x="62" y="5" width="56" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="liderazgo" translatesAutoresizingMaskIntoConstraints="NO" id="YYS-0M-OyU">
+                                        <rect key="frame" x="62" y="47" width="56" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="conciencia" translatesAutoresizingMaskIntoConstraints="NO" id="fYV-az-0kA">
+                                        <rect key="frame" x="64" y="92" width="54" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Autocontrol:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bA-HN-tbf">
+                                        <rect key="frame" x="119" y="7" width="74" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="innovacion" translatesAutoresizingMaskIntoConstraints="NO" id="g15-5v-0Y6">
+                                        <rect key="frame" x="64" y="135" width="54" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -732,52 +756,99 @@ Tabla con el registro de lo observado</string>
                                     <constraint firstAttribute="height" constant="187" id="fDN-51-hAi"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-rW-bBT">
-                                <rect key="frame" x="16" y="401" width="361" height="187"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWc-wu-T2C">
+                                <rect key="frame" x="16" y="500" width="361" height="191"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CuadroAzulFuerte" translatesAutoresizingMaskIntoConstraints="NO" id="rPa-Ty-9CY">
-                                        <rect key="frame" x="52" y="-5" width="257" height="196"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CuadroAzulFuerte" translatesAutoresizingMaskIntoConstraints="NO" id="HQU-Mw-iNH">
+                                        <rect key="frame" x="19" y="-35" width="334" height="226"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nivel de aprendizaje: Avanzado" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16e-KT-ffQ">
-                                        <rect key="frame" x="70" y="133" width="222" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Liderazgo:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abo-2h-w3L">
+                                        <rect key="frame" x="119" y="51" width="67" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
                                         <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnóstico Final" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ark-lr-Yck">
-                                        <rect key="frame" x="65" y="35" width="230" height="99"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conciencia y valor social:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0re-n0-LZc">
+                                        <rect key="frame" x="119" y="97" width="141" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
                                         <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Innovación social y sostenibilidad financiera:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy2-7g-BEr">
+                                        <rect key="frame" x="119" y="139" width="141" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="autocontrol" translatesAutoresizingMaskIntoConstraints="NO" id="55R-HZ-OnC">
+                                        <rect key="frame" x="62" y="5" width="56" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="liderazgo" translatesAutoresizingMaskIntoConstraints="NO" id="Zvb-SP-zau">
+                                        <rect key="frame" x="62" y="47" width="56" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="conciencia" translatesAutoresizingMaskIntoConstraints="NO" id="0b9-cg-SFS">
+                                        <rect key="frame" x="64" y="92" width="54" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Autocontrol:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uum-cY-B3b">
+                                        <rect key="frame" x="119" y="7" width="74" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="innovacion" translatesAutoresizingMaskIntoConstraints="NO" id="FtC-0a-RXA">
+                                        <rect key="frame" x="64" y="135" width="54" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="361" id="NC5-Zp-T8u"/>
-                                    <constraint firstAttribute="height" constant="187" id="WWy-a1-ajv"/>
+                                    <constraint firstAttribute="width" constant="361" id="RHf-gU-7Xl"/>
+                                    <constraint firstAttribute="height" constant="187" id="iN4-Dr-sgK"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" image="CuadroNegro" translatesAutoresizingMaskIntoConstraints="NO" id="i6b-vM-DiS">
-                                <rect key="frame" x="31" y="376" width="331" height="5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" misplaced="YES" image="CuadroNegro" translatesAutoresizingMaskIntoConstraints="NO" id="i6b-vM-DiS">
+                                <rect key="frame" x="31" y="424" width="331" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="wMZ-aP-1Ln"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnóstico Final" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1e-ub-i1C">
+                                <rect key="frame" x="121" y="475" width="151" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="21"/>
+                                <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Desempeño" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxk-9g-dGZ">
+                                <rect key="frame" x="109" y="81" width="175.66666666666663" height="41"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="35"/>
+                                <color key="textColor" red="0.02745098248" green="0.050980389119999997" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diagnóstico Inicial" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uf-EK-GYC">
+                                <rect key="frame" x="91" y="158" width="210" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="21"/>
+                                <color key="textColor" red="0.96363594630000005" green="0.95428025750000001" blue="0.97299163509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ykl-1U-kZ2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Yxk-9g-dGZ" firstAttribute="centerX" secondItem="did-UW-dHY" secondAttribute="centerX" id="2Cq-m9-AMM"/>
-                            <constraint firstItem="MSg-rW-bBT" firstAttribute="top" secondItem="i6b-vM-DiS" secondAttribute="bottom" constant="20" id="784-UY-Urv"/>
-                            <constraint firstItem="yqe-vm-iEq" firstAttribute="top" secondItem="Yxk-9g-dGZ" secondAttribute="bottom" constant="35" id="EXS-WT-9lc"/>
+                            <constraint firstItem="yqe-vm-iEq" firstAttribute="top" secondItem="Yxk-9g-dGZ" secondAttribute="bottom" constant="40" id="EXS-WT-9lc"/>
                             <constraint firstItem="i6b-vM-DiS" firstAttribute="leading" secondItem="Ykl-1U-kZ2" secondAttribute="leading" constant="31" id="J4x-l1-8Ck"/>
-                            <constraint firstItem="Yxk-9g-dGZ" firstAttribute="top" secondItem="Ykl-1U-kZ2" secondAttribute="top" constant="32" id="WUg-Yv-Yql"/>
+                            <constraint firstItem="Yxk-9g-dGZ" firstAttribute="top" secondItem="Ykl-1U-kZ2" secondAttribute="top" constant="28" id="WUg-Yv-Yql"/>
                             <constraint firstItem="yqe-vm-iEq" firstAttribute="centerX" secondItem="did-UW-dHY" secondAttribute="centerX" id="dNM-px-UZX"/>
-                            <constraint firstItem="MSg-rW-bBT" firstAttribute="centerX" secondItem="did-UW-dHY" secondAttribute="centerX" id="dwo-Fm-hXT"/>
-                            <constraint firstItem="MSg-rW-bBT" firstAttribute="top" secondItem="i6b-vM-DiS" secondAttribute="bottom" constant="20" id="e6e-WS-ZeD"/>
                             <constraint firstItem="i6b-vM-DiS" firstAttribute="top" secondItem="yqe-vm-iEq" secondAttribute="bottom" constant="22" id="miC-g0-Z3X"/>
                             <constraint firstItem="Ykl-1U-kZ2" firstAttribute="trailing" secondItem="i6b-vM-DiS" secondAttribute="trailing" constant="31" id="yfM-2V-lsy"/>
                         </constraints>
@@ -786,7 +857,7 @@ Tabla con el registro de lo observado</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDM-it-g0b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="2058"/>
+            <point key="canvasLocation" x="1956.4885496183206" y="2057.7464788732395"/>
         </scene>
         <!--Diagnostico View Controller-->
         <scene sceneID="461-z7-31K">
@@ -1282,14 +1353,14 @@ Debes identificar a 1 persona que pudiera dar retroalimentación sobre la propue
         <scene sceneID="a7Y-3G-b8V">
             <objects>
                 <viewController id="BdJ-eA-Zcz" customClass="EntregableFinalViewController" customModule="SEL4C" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="e7m-aL-Qdf">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="e7m-aL-Qdf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CQV-rc-kiT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQV-rc-kiT">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8K1-5G-PjE">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8K1-5G-PjE">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="2500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entregable Final " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3XW-5P-3LA">
@@ -2525,11 +2596,15 @@ En la parte inferior del árbol se sugiere respondas lo siguiente:
         <image name="CuadroAzulFuerte" width="197" height="202.66667175292969"/>
         <image name="CuadroGrisObscuro" width="199" height="203.66667175292969"/>
         <image name="CuadroNegro" width="199" height="203.66667175292969"/>
+        <image name="autocontrol" width="128" height="128"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
+        <image name="conciencia" width="92" height="103"/>
         <image name="cuadroVerde" width="199" height="203.66667175292969"/>
         <image name="doc.text" catalog="system" width="115" height="128"/>
         <image name="doc.text.fill" catalog="system" width="115" height="128"/>
+        <image name="innovacion" width="175" height="175"/>
+        <image name="liderazgo" width="201.66667175292969" height="185.33332824707031"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
