@@ -34,6 +34,11 @@
 		59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */; };
 		59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB22AA268A600A4933C /* TabBarViewController.swift */; };
 		59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */; };
+		59F33B3D2AD3ABDE00C2CC2F /* Actividad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F33B3C2AD3ABDE00C2CC2F /* Actividad.swift */; };
+		59F33B3F2AD3AC0600C2CC2F /* EcomplexityEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F33B3E2AD3AC0600C2CC2F /* EcomplexityEngine.swift */; };
+		59F33B432AD3D59B00C2CC2F /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F33B422AD3D59B00C2CC2F /* UserLogin.swift */; };
+		59F33B452AD3D5C200C2CC2F /* UserLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F33B442AD3D5C200C2CC2F /* UserLoginController.swift */; };
+		59F33B472AD4763200C2CC2F /* Autodiagnostico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F33B462AD4763100C2CC2F /* Autodiagnostico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,11 @@
 		59EDBFAE2AA17E4600A4933C /* ActividadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActividadesViewController.swift; sourceTree = "<group>"; };
 		59EDBFB22AA268A600A4933C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		59EDBFB42AA2725C00A4933C /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		59F33B3C2AD3ABDE00C2CC2F /* Actividad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad.swift; sourceTree = "<group>"; };
+		59F33B3E2AD3AC0600C2CC2F /* EcomplexityEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomplexityEngine.swift; sourceTree = "<group>"; };
+		59F33B422AD3D59B00C2CC2F /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		59F33B442AD3D5C200C2CC2F /* UserLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginController.swift; sourceTree = "<group>"; };
+		59F33B462AD4763100C2CC2F /* Autodiagnostico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autodiagnostico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,8 @@
 		38D1C6652AC7BA3400817D28 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				59F33B3E2AD3AC0600C2CC2F /* EcomplexityEngine.swift */,
+				59F33B3C2AD3ABDE00C2CC2F /* Actividad.swift */,
 				38D1C6662AC7BA5500817D28 /* Pregunta.swift */,
 				38D1C6682AC7BEAB00817D28 /* IndexEngine.swift */,
 				38D1C66A2AC7C09700817D28 /* Respuesta.swift */,
@@ -109,6 +121,9 @@
 				388FE9A32AD3819400F54CAC /* Pais.swift */,
 				388FE9A52AD381B900F54CAC /* Usuario.swift */,
 				388FE9A72AD3850D00F54CAC /* UserCreationController.swift */,
+				59F33B422AD3D59B00C2CC2F /* UserLogin.swift */,
+				59F33B442AD3D5C200C2CC2F /* UserLoginController.swift */,
+				59F33B462AD4763100C2CC2F /* Autodiagnostico.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +308,7 @@
 				59EDBF9D2A9FDA5900A4933C /* ViewController.swift in Sources */,
 				38D1C70C2ACF9E8200817D28 /* Data.swift in Sources */,
 				38D1C70E2AD090ED00817D28 /* YoutubeViewController.swift in Sources */,
+				59F33B3D2AD3ABDE00C2CC2F /* Actividad.swift in Sources */,
 				59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */,
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
 				382744FF2AD1E9E900DCC1F5 /* SistemaBViewController.swift in Sources */,
@@ -304,13 +320,17 @@
 				5956E4D32AA80F81008D223E /* EditarPerfilViewController.swift in Sources */,
 				5956E4CF2AA6CDEE008D223E /* NSAttributedStringExtension.swift in Sources */,
 				59EDBF992A9FDA5900A4933C /* AppDelegate.swift in Sources */,
+				59F33B472AD4763200C2CC2F /* Autodiagnostico.swift in Sources */,
+				59F33B3F2AD3AC0600C2CC2F /* EcomplexityEngine.swift in Sources */,
 				382745012AD1EBC500DCC1F5 /* AshokaViewController.swift in Sources */,
 				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
 				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,
 				38D1C6672AC7BA5500817D28 /* Pregunta.swift in Sources */,
+				59F33B432AD3D59B00C2CC2F /* UserLogin.swift in Sources */,
 				38D1C6692AC7BEAB00817D28 /* IndexEngine.swift in Sources */,
 				38D1C66B2AC7C09700817D28 /* Respuesta.swift in Sources */,
 				388FE9A02AD37ED200F54CAC /* Actividad1ViewController.swift in Sources */,
+				59F33B452AD3D5C200C2CC2F /* UserLoginController.swift in Sources */,
 				388FE9A22AD3816900F54CAC /* Instituciones.swift in Sources */,
 				59EDBF9B2A9FDA5900A4933C /* SceneDelegate.swift in Sources */,
 			);
