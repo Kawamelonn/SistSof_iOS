@@ -102,7 +102,7 @@ class InicialViewController: UIViewController {
             }
         }
         
-        sender.backgroundColor = UIColor.green
+        sender.backgroundColor = UIColor.lightGray
         buttonDeAcuerdo.isEnabled = false
         buttonNiAcuerdo.isEnabled = false
         buttonMuyAcuerdo.isEnabled = false
@@ -110,7 +110,7 @@ class InicialViewController: UIViewController {
         buttonPocoAcuderdo.isEnabled = false
         
         if engine.nextQuestion(){
-            print("No hay más preguntas")
+            print("Última pregunta contestada")
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
                                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
@@ -118,7 +118,7 @@ class InicialViewController: UIViewController {
         }else{
             print("questionIndex: \(engine.questionIndex)")
             print("Siguiente pregunta")
-            Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: Selector("nextQuestion"), userInfo: nil, repeats: false)
+            Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: Selector("nextQuestion"), userInfo: nil, repeats: false)
         }
     }
                     
@@ -156,8 +156,6 @@ class InicialViewController: UIViewController {
                 competencia: competencia,
                 completada: true
             )
-            
-            print(newAutodiagnostico)
             
             // Envía el nuevo usuario a la base de datos
             do {

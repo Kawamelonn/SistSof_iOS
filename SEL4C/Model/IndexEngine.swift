@@ -24,13 +24,13 @@ struct  IndexEngine{
         return progress
     }
     mutating func nextQuestion()->Bool{
-        if questionIndex <= questions.count {
-            questionIndex += 1
-            return false
-        }
-        else{
+        if questionIndex == 48 {
             questionIndex=0
             return true
+        }
+        else{
+            questionIndex += 1
+            return false
         }
     }
 }

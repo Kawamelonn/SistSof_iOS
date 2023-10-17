@@ -26,7 +26,7 @@ extension Autodiagnostico{
     static func fetchAutodiagnostico(usuario:Int, num_aut:Int) async throws->Autodiagnosticos{
         let id_usuario = usuario
         let id_auto = 1
-        let baseString = "http://20.124.95.5:8000/cauto/\(id_usuario)/\(id_auto)/"
+        let baseString = "http://127.0.0.1:8000/cauto/\(id_usuario)/\(id_auto)/"
         let autosURL = URL(string: baseString)!
         let (data, response) = try await URLSession.shared.data(from: autosURL)
         guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
