@@ -70,9 +70,9 @@ extension MultipartRequest{
     static func sendImage(user:String,activity:String,evidence_name:String, fileData:Data) async throws->Data{
         var multipart = MultipartRequest()
         for field in [
-            "user": user,
-            "activity": activity,
-            "evidence_name": evidence_name
+            "usuario": user,
+            "actividad": activity,
+            "filename": evidence_name
         ] {
             multipart.add(key: field.key, value: field.value)
         }

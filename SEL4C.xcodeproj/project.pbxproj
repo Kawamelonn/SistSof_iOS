@@ -53,6 +53,8 @@
 		84CF84662AD649690027A7BD /* UserDiagnostic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF84652AD649690027A7BD /* UserDiagnostic.swift */; };
 		84CF84682AD6520E0027A7BD /* Actividades2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF84672AD6520E0027A7BD /* Actividades2ViewController.swift */; };
 		84CF846A2AD652B10027A7BD /* EntregableFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF84692AD652B10027A7BD /* EntregableFinalViewController.swift */; };
+		8E8FB2C02ADF8A9600E15393 /* DesempenoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB2BF2ADF8A9600E15393 /* DesempenoViewController.swift */; };
+		8E8FB2C22ADF916200E15393 /* Desempeño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB2C12ADF916200E15393 /* Desempeño.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		84CF84652AD649690027A7BD /* UserDiagnostic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDiagnostic.swift; sourceTree = "<group>"; };
 		84CF84672AD6520E0027A7BD /* Actividades2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividades2ViewController.swift; sourceTree = "<group>"; };
 		84CF84692AD652B10027A7BD /* EntregableFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntregableFinalViewController.swift; sourceTree = "<group>"; };
+		8E8FB2BF2ADF8A9600E15393 /* DesempenoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenoViewController.swift; sourceTree = "<group>"; };
+		8E8FB2C12ADF916200E15393 /* Desempeño.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Desempeño.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				8428744D2AD4C4AE0044A7FE /* Progreso.swift */,
 				842874512AD4C4FF0044A7FE /* ProgresoCreationController.swift */,
 				3860A91A2AD77CFA00CC96FE /* Perfil.swift */,
+				8E8FB2C12ADF916200E15393 /* Desempeño.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,15 +187,9 @@
 				3860A9182AD7592E00CC96FE /* AutodiagnosticoUsuario.swift */,
 				3860A91C2AD7B86900CC96FE /* Actividad3ViewController.swift */,
 				3860A91E2AD7B88600CC96FE /* Actividad4ViewController.swift */,
+				8E8FB2BF2ADF8A9600E15393 /* DesempenoViewController.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		38D1C6BB2ACBA95900817D28 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		59EDBF8C2A9FDA5900A4933C = {
@@ -214,7 +213,6 @@
 		59EDBF972A9FDA5900A4933C /* SEL4C */ = {
 			isa = PBXGroup;
 			children = (
-				38D1C6BB2ACBA95900817D28 /* Controllers */,
 				38D1C6B92ACBA93700817D28 /* Views */,
 				38D1C6652AC7BA3400817D28 /* Model */,
 				59EDBF982A9FDA5900A4933C /* AppDelegate.swift */,
@@ -353,6 +351,7 @@
 				59F33B3D2AD3ABDE00C2CC2F /* Actividad.swift in Sources */,
 				59EDBFAF2AA17E4600A4933C /* ActividadesViewController.swift in Sources */,
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
+				8E8FB2C02ADF8A9600E15393 /* DesempenoViewController.swift in Sources */,
 				8428744E2AD4C4AE0044A7FE /* Progreso.swift in Sources */,
 				3860A9192AD7592F00CC96FE /* AutodiagnosticoUsuario.swift in Sources */,
 				3860A91D2AD7B86900CC96FE /* Actividad3ViewController.swift in Sources */,
@@ -376,6 +375,7 @@
 				59EDBFB32AA268A600A4933C /* TabBarViewController.swift in Sources */,
 				3860A91B2AD77CFA00CC96FE /* Perfil.swift in Sources */,
 				59EDBFB52AA2725C00A4933C /* PerfilViewController.swift in Sources */,
+				8E8FB2C22ADF916200E15393 /* Desempeño.swift in Sources */,
 				84CF84602AD6402D0027A7BD /* InicialViewController.swift in Sources */,
 				38D1C6672AC7BA5500817D28 /* Pregunta.swift in Sources */,
 				59F33B432AD3D59B00C2CC2F /* UserLogin.swift in Sources */,
