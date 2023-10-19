@@ -46,6 +46,8 @@ class DesempenoViewController: UIViewController {
             do{
                 if let userIdPrueba = UserDefaults.standard.string(forKey: "UserId"), let userId = Int(userIdPrueba) {
                     let datos = try await DesempeñoData.fetchDesempeñoData(id: userId)
+                    print("Id de usuario obtenido:")
+                    print(userId)
                     print(datos)
                     updateUI(with: datos)
                 } else {

@@ -219,7 +219,7 @@ class RegistroViewController: UIViewController {
                      try await crearUsuario()
                      
                      let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                     let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+                     let mainTabBarController = storyboard.instantiateViewController(identifier: "LoginNavigationController")
                      (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
                      
                  } catch {

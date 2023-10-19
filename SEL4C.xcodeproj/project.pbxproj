@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		382744FF2AD1E9E900DCC1F5 /* SistemaBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382744FE2AD1E9E900DCC1F5 /* SistemaBViewController.swift */; };
 		382745012AD1EBC500DCC1F5 /* AshokaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382745002AD1EBC500DCC1F5 /* AshokaViewController.swift */; };
-		3860A9192AD7592F00CC96FE /* AutodiagnosticoUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860A9182AD7592E00CC96FE /* AutodiagnosticoUsuario.swift */; };
 		3860A91B2AD77CFA00CC96FE /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860A91A2AD77CFA00CC96FE /* Perfil.swift */; };
 		3860A91D2AD7B86900CC96FE /* Actividad3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860A91C2AD7B86900CC96FE /* Actividad3ViewController.swift */; };
 		3860A91F2AD7B88600CC96FE /* Actividad4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860A91E2AD7B88600CC96FE /* Actividad4ViewController.swift */; };
@@ -70,7 +69,6 @@
 /* Begin PBXFileReference section */
 		382744FE2AD1E9E900DCC1F5 /* SistemaBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistemaBViewController.swift; sourceTree = "<group>"; };
 		382745002AD1EBC500DCC1F5 /* AshokaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshokaViewController.swift; sourceTree = "<group>"; };
-		3860A9182AD7592E00CC96FE /* AutodiagnosticoUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutodiagnosticoUsuario.swift; sourceTree = "<group>"; };
 		3860A91A2AD77CFA00CC96FE /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		3860A91C2AD7B86900CC96FE /* Actividad3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad3ViewController.swift; sourceTree = "<group>"; };
 		3860A91E2AD7B88600CC96FE /* Actividad4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad4ViewController.swift; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 				842874552AD4C9270044A7FE /* VideoViewController.swift */,
 				84CF84672AD6520E0027A7BD /* Actividades2ViewController.swift */,
 				84CF84692AD652B10027A7BD /* EntregableFinalViewController.swift */,
-				3860A9182AD7592E00CC96FE /* AutodiagnosticoUsuario.swift */,
 				3860A91C2AD7B86900CC96FE /* Actividad3ViewController.swift */,
 				3860A91E2AD7B88600CC96FE /* Actividad4ViewController.swift */,
 				8E8FB2BF2ADF8A9600E15393 /* DesempenoViewController.swift */,
@@ -353,7 +350,6 @@
 				59EDBFAD2AA024F900A4933C /* RegistroViewController.swift in Sources */,
 				8E8FB2C02ADF8A9600E15393 /* DesempenoViewController.swift in Sources */,
 				8428744E2AD4C4AE0044A7FE /* Progreso.swift in Sources */,
-				3860A9192AD7592F00CC96FE /* AutodiagnosticoUsuario.swift in Sources */,
 				3860A91D2AD7B86900CC96FE /* Actividad3ViewController.swift in Sources */,
 				382744FF2AD1E9E900DCC1F5 /* SistemaBViewController.swift in Sources */,
 				388FE9A42AD3819400F54CAC /* Pais.swift in Sources */,
